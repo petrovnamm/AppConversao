@@ -51,9 +51,8 @@ public class AppConversao extends AppCompatActivity {
     }
 
     public void openProblem1(){
-        //to do
-        //        Intent intent = new Intent(this, Problem2Activity.class);
-        //        startActivity(intent);
+        Intent intent = new Intent(this, Problem2Activity.class);
+        startActivity(intent);
     }
 
     public void openProblem2(){
