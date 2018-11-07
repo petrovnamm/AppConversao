@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Problem2Activity"></activity>
+        <activity android:name=".Problem1Activity"></activity>
     </application>
 
 </manifest>
