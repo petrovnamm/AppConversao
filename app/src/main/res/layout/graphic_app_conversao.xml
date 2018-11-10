@@ -8,6 +8,19 @@
     android:background="#c0c0c0">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="140dp"
+        android:text="S: 1000 ; N1:  860 ; N2: 430 ; L: 35*10^-2m ; A = 8*10^-4;"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -45,5 +58,31 @@
         android:layout_marginBottom="15dp"
         android:text="Mudar Parametros"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="79dp"
+        android:text="Dados:"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="109dp"
+        android:text="Tensão: 220V ; Freq: 60Hz ; Tempo: [0-0.1] ; "
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
 
 </RelativeLayout>

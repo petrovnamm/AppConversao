@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Problema 2"
+        android:text="Gráfico"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:visibility="visible" />
     <!--End Title-->
@@ -29,22 +29,10 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="111dp"
-        android:text="Ensaio"
+        android:text="Tensão"
         android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <!--Fields-->
-    <Spinner
-        android:id="@+id/spinnerEnsaio"
-        android:layout_width="122dp"
-        android:layout_height="37dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="104dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,20 +43,8 @@
         android:layout_marginStart="39dp"
         android:layout_marginLeft="39dp"
         android:layout_marginTop="171dp"
-        android:text="Tensão"
+        android:text="Frenquência:"
         android:textColor="@android:color/black" />
-
-    <EditText
-        android:id="@+id/tensaoInputada"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/spinnerEnsaio"
-        android:layout_alignLeft="@+id/spinnerEnsaio"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginLeft="-1dp"
-        android:layout_marginTop="148dp"
-        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,20 +55,8 @@
         android:layout_marginStart="39dp"
         android:layout_marginLeft="39dp"
         android:layout_marginTop="229dp"
-        android:text="Corrente"
+        android:text="Potencia Aparente:"
         android:textColor="@android:color/black" />
-
-    <EditText
-        android:id="@+id/correnteInputada"
-        android:layout_width="119dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="141dp"
-        android:layout_marginLeft="141dp"
-        android:layout_marginTop="206dp"
-        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -103,24 +67,48 @@
         android:layout_marginStart="41dp"
         android:layout_marginLeft="41dp"
         android:layout_marginTop="285dp"
-        android:text="Potência Ativa"
+        android:text="Numero de espiras 1:"
         android:textColor="@android:color/black" />
 
-    <EditText
-        android:id="@+id/potenciaInputada"
-        android:layout_width="119dp"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="142dp"
-        android:layout_marginLeft="142dp"
-        android:layout_marginTop="264dp"
-        android:inputType="numberDecimal" />
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="343dp"
+        android:text="Numero de espiras 2:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="454dp"
+        android:text="Comprimento médio do núcleo:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="399dp"
+        android:text="Área da secção transversal do núcleo:"
+        android:textColor="@android:color/black" />
 
     <!--Button to calculate-->
     <Button
-        android:id="@+id/btnResult"
+        android:id="@+id/btnResultG"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
