@@ -4,18 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AppConversao">
+    tools:context=".AppConversao"
+    android:background="#c0c0c0">
 
     <!--Title-->
     <TextView
+        android:id="@+id/tittle_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:textSize="30dp"
-        android:textColor="@android:color/black"
-        android:text="Problema 2" />
+        android:text="Problema 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="visible" />
     <!--End Title-->
 
     <TextView
@@ -26,21 +28,21 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="111dp"
         android:text="Ensaio"
-        android:textColor="@android:color/black" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <!--Fields-->
     <Spinner
         android:id="@+id/spinnerEnsaio"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="122dp"
+        android:layout_height="37dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="104dp"
         android:background="@android:drawable/btn_dropdown"
         android:spinnerMode="dropdown" />
 
@@ -50,22 +52,22 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="160dp"
-        android:textColor="@android:color/black"
-        android:text="Tensão" />
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="171dp"
+        android:text="Tensão"
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/tensaoInputada"
-        android:layout_width="90dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignStart="@+id/spinnerEnsaio"
+        android:layout_alignLeft="@+id/spinnerEnsaio"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="148dp"
         android:inputType="numberDecimal" />
 
     <TextView
@@ -74,23 +76,23 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="210dp"
-        android:textColor="@android:color/black"
-        android:text="Corrente" />
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="229dp"
+        android:text="Corrente"
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/correnteInputada"
-        android:layout_width="90dp"
+        android:layout_width="119dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="200dp"
-        android:inputType="numberDecimal"/>
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="206dp"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -98,23 +100,23 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="260dp"
-        android:textColor="@android:color/black"
-        android:text="Potência Ativa" />
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="285dp"
+        android:text="Potência Ativa"
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/potenciaInputada"
-        android:layout_width="90dp"
+        android:layout_width="119dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="250dp"
-        android:inputType="numberDecimal"/>
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="264dp"
+        android:inputType="numberDecimal" />
 
     <!--Button to calculate-->
     <Button
@@ -123,8 +125,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="190dp"
-        android:text="Calcular" />
+        android:layout_marginBottom="164dp"
+        android:text="Calcular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
 
 </RelativeLayout>

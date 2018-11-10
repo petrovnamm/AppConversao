@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AppConversao">
+    tools:context=".AppConversao"
+    android:background="#c0c0c0">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,12 +13,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:text="Resultado: Problema 2"
-        android:textColor="@android:color/black"
-        android:textSize="20dp" />
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="11dp"
+        android:text="Resultado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="visible" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,12 +26,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="79dp"
         android:text="Dado que a potência aparente S = 1000"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,12 +38,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="114dp"
         android:text="Ensaio escolhido:"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/ensaioInputado"
@@ -65,12 +64,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="119dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="144dp"
         android:text="Dados inputados:"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/tensaoInputada"
@@ -125,10 +123,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="182dp"
         android:text="Resultados:"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
     <TextView
         android:id="@+id/rcOutput"
@@ -137,12 +134,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="212dp"
         android:text="Rc"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/xmOutput"
@@ -151,12 +147,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="213dp"
         android:text="Xm"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/r1Output"
@@ -165,12 +160,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="254dp"
         android:text="R1"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/x1Output"
@@ -179,12 +173,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="270dp"
-        android:text="x1"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="255dp"
+        android:text="X1"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/r2Output"
@@ -193,12 +186,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="298dp"
         android:text="R2"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/x2Output"
@@ -207,39 +199,40 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="330dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="300dp"
         android:text="X2"
-        android:textColor="@android:color/black"
-        android:textSize="12dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
 
     <!--Back buttons-->
     <Button
         android:id="@+id/btnBackHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="22dp"
-        android:text="Voltar ao início" />
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="15dp"
+        android:text="Início"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <Button
         android:id="@+id/btnBackProb2"
-        android:layout_width="207dp"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="169dp"
-        android:layout_marginLeft="169dp"
-        android:layout_marginBottom="22dp"
-        android:text="Voltar ao problema 2" />
+        android:layout_marginStart="219dp"
+        android:layout_marginLeft="219dp"
+        android:layout_marginBottom="15dp"
+        android:text="Problema 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
     <!--End Back buttons-->
 
 </RelativeLayout>
