@@ -55,7 +55,6 @@ public class Problem2Activity extends AppCompatActivity {
         });
     }
 
-    //to do
     public void openResultProblem2(){
         ensaio = dropdownEnsaio.getSelectedItem().toString();
 

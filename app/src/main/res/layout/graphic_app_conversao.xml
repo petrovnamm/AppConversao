@@ -83,6 +83,14 @@
         android:text="Tensão: 220V ; Freq: 60Hz ; Tempo: [0-0.1] ; "
         android:textAppearance="@style/TextAppearance.AppCompat" />
 
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="208dp"
+        android:layout_height="303dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp" />
+
 
 
 </RelativeLayout>
